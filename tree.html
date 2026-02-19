@@ -15,6 +15,26 @@
 
   </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="tree.html">Tree options</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTree">
+        <ul class="navbar-nav me-auto>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="first.html">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="second.html">Second</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 <div class="container">
   
   <!-- Row 1: Letters -->
@@ -151,6 +171,43 @@ the medium breakpoint (768px).
         <button type="button" class="btn btn-danger">L</button>
       </div>
     </div>
+  </div>
+
+  <hr>
+  <h2 class="text-center">More Tree Options</h2>
+
+  <div class="container text-center mb-5">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button"
+      data-bs-toggle="dropdown" aria-expanded="false">
+        Choose a page
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="first.html">First Page</a></li>
+        <li><a class="dropdown-item" href="second.html">Second Page</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <h2 class="text-center">Sign Up</h2>
+
+  <div class="container mb-5">
+    <form>
+      <div class="mb-3">
+        <label for="emailInput" class="form-label">Email address</label>
+         <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="name@example.com">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="treeInput" class="form-label">TREE</label>
+        <input type="text" class="form-control" id="treeInput" placeholder="Enter your tree">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" value="" id="newsletterCheck">
+        <label class="form-check-label" for="newsletterCheck">Sign up for newsletter?</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 </body>
 
